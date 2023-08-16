@@ -3,14 +3,14 @@ import CardItemCar from "./cardItemCar";
 import "./car.css";
 
 const item = [
-	{ title: "Toyota Yaris", price: 1200 },
-	{ title: "Toyota Yaris", price: 1200 },
-	{ title: "Toyota Yaris", price: 1200 },
-	{ title: "Toyota Yaris", price: 1200 },
-	{ title: "Toyota Yaris", price: 1200 },
-	{ title: "Toyota Yaris", price: 1200 },
-	{ title: "Toyota Yaris", price: 1200 },
-	{ title: "Toyota Yaris", price: 1200 },
+	{ title: "Toyota Yaris", price: "1,200" },
+	{ title: "Toyota Yaris", price: "1,200" },
+	{ title: "Toyota Yaris", price: "1,200" },
+	{ title: "Toyota Yaris", price: "1,200" },
+	{ title: "Toyota Yaris", price: "1,200" },
+	{ title: "Toyota Yaris", price: "1,200" },
+	{ title: "Toyota Yaris", price: "1,200" },
+	{ title: "Toyota Yaris", price: "1,200" },
 ];
 const CarList: React.FC = () => {
 	return (

@@ -13,10 +13,12 @@ const CarList: React.FC<CarItem> = ({ data }) => {
 			<img src={"assets/toyota-yaris.png"} alt={title} />
 			<div className="card-detail">
 				<div>
-					<div>{title}</div>
-					<div>{price}</div>
+					<div style={{ fontWeight: 700, fontSize: 20, marginBottom: 8 }}>
+						{title}
+					</div>
+					<div>{`${price} THB/Day`}</div>
 				</div>
-				<div className="button-add">Add</div>
+				<div className="button-add">Add to cart</div>
 			</div>
 		</div>
 	);

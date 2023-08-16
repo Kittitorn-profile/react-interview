@@ -1,13 +1,31 @@
-.car {
-	display: "block";
-	padding: 24px 10%;
-	background-color: #f3f4f6;
+@media only screen and (max-width: 1365px) {
+	.car {
+		display: "block";
+		padding: 24px 10%;
+		background-color: #f3f4f6;
+	}
+
+	.grid-container {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 2rem;
+		padding: 10px;
+	}
 }
-.grid-container {
-	display: grid;
-	grid-template-columns: auto auto auto auto;
-	gap: 2rem;
-	padding: 10px;
+
+@media only screen and (min-width: 1366px) {
+	.car {
+		display: "block";
+		padding: 24px 10%;
+		background-color: #f3f4f6;
+	}
+
+	.grid-container {
+		display: grid;
+		grid-template-columns: auto auto auto auto;
+		gap: 2rem;
+		padding: 10px;
+	}
 }
 
 .grid-container > div {
@@ -41,8 +59,12 @@
 	background-color: #3b82f6;
 	border-radius: 8px;
 	color: #ffffff;
+	display: flex;
+	flex-direction: row;
 	cursor: pointer;
 	text-align: center;
 	align-items: center;
 	justify-content: center;
+	font-weight: 500;
+	margin-top: 1rem;
 }
