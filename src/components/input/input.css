@@ -1,0 +1,14 @@
+.box-input {
+	display: block;
+}
+
+.box-input > input {
+	border-width: 1px;
+	border-color: #d1d5db;
+	height: 42px !important;
+	border-radius: 4px;
+	padding: 0px 16px;
+}
+.box-input > input::placeholder {
+	color: #d1d5db;
+}
