@@ -1,31 +1,37 @@
 .app-footer {
-  position: fixed;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  background: #0073fa;
-  color: #fff;
-  text-align: center;
-  height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 18px;
-  font-weight: 600;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background: #111827;
+	color: #fff;
+	text-align: center;
+	height: 124px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 18px;
+	font-weight: 600;
+	padding: 0 10%;
 }
 
 .app-header {
-  background: #0073fa;
-  color: #fff;
-  height: 80px;
-  display: flex;
-  align-items: center;
-  padding-left: 40px;
+	background: #ffffff;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-left: 40px;
+	padding: 0 10%;
+	box-shadow: 0px 2px 8px -1px rgba(0, 0, 0, 0.3);
 }
+
 .app-header img {
-  height: 50px;
+	height: 50px;
 }
 .app-header span {
-  font-size: 30px;
-  font-weight: 600;
+	font-size: 30px;
+	font-weight: 600;
 }
