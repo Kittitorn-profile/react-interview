@@ -1,25 +1,20 @@
-import logo from "./logo.svg";
-
+import { HeaderMenu, Footer } from "./layout";
+import CarList from "./components/carList";
 import "./App.css";
 
-function App() {
-  return (
-    <div>
-      <div className="app-header">
-        <img src={logo} alt="logo" /> <span>Drivehub</span>
-      </div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-evenly",
-        }}
-      >
-        <div>Car list</div>
-        <div>Cart</div>
-      </div>
-      <div className="app-footer">FOOTER</div>
-    </div>
-  );
-}
+const App = () => {
+	return (
+		<div>
+			<HeaderMenu />
+			<div>
+				<div>Cart Header</div>
+				<div>
+					<CarList />
+				</div>
+			</div>
+			<Footer />
+		</div>
+	);
+};
 
 export default App;
